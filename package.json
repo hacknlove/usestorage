@@ -1,0 +1,30 @@
+{
+  "name": "usestorage",
+  "version": "1.0.0",
+  "description": "react state hook for using browser extension storage",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hacknlove/usestorage.git"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "storage",
+    "extension"
+  ],
+  "author": "Antonio Fernández Porrúa <antonio@hacknlove.org> (https://pykiss.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hacknlove/usestorage/issues"
+  },
+  "homepage": "https://github.com/hacknlove/usestorage#readme",
+  "dependencies": {
+    "isdifferent": "^1.0.0",
+    "react": "^16.8.6",
+    "webextension-polyfill": "^0.4.0"
+  }
+}
