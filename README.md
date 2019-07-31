@@ -3,7 +3,7 @@ react state hook for using browser extension storage
 
 ## Install
 ```
-npm i usestorage
+npm i @hacknlove/usestorage
 ```
 
 ## API
@@ -25,7 +25,7 @@ speed up `useStorage` caching the initial values.
 ```javascript
 import React from 'react'
 import ReactDOM from 'react-dom'
-import useStorage, { preStore } from 'helpers/useStorage'
+import useStorage, { preStore } from '@hacknlove/usestorage'
 
 preStore(['world']) // optional optimization
 
