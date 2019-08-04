@@ -37,7 +37,11 @@ export default function useStorage (key, first = null, area = 'sync') {
       browser.storage.onChanged.removeListener(storageOnChange)
     }
   })
-  return value
+  return [value, (value) => {
+    browser.storage[area].set({
+      key: value
+    })
+  }]
 }
 
 export async function preStore (keys, area = 'sync') {
