@@ -19,7 +19,7 @@ returns `[value, set]` with the value in the storage at `key` and a function to 
 * `key` **array** of the keys to be cached
 * `area` the storage to use.
 
-speed up `useStorage` caching the initial values.
+speed up `useStorage` caching the actual values for the first use.
 
 ## Example
 ```javascript
