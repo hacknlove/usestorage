@@ -39,7 +39,7 @@ export default function useStorage (key, first = null, area = 'sync') {
   })
   return [value, (value) => {
     browser.storage[area].set({
-      key: value
+      [key]: value
     })
   }]
 }
