@@ -35,7 +35,7 @@ function Example () {
 
   return (
     <h1>Hello {world}</h1>
-    <button onClick={() => setWorld('eartch')}>Worls name</button>
+    <button onClick={() => setWorld('earth')}>Worls name</button>
   )
 }
 
