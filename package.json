@@ -1,6 +1,6 @@
 {
   "name": "@hacknlove/usestorage",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "react state hook for using browser extension storage",
   "main": "index.js",
   "scripts": {
